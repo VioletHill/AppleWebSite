@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>index.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=GB18030">
+    
+    <link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="stylesheet" type="text/css" href="../navigation.css">
+	
+	<script src="../jquery.js"></script>
+	<script src="./index.js"></script>
+  </head>
+  
+  <body>
+  	<div class="mainDiv">
+		<div class="navigation">
+    		<table cellspacing="0" cellpadding="0">
+    			<tr>
+    				<td>
+   						<div class="navigationLink firstItem">
+   							<div class="firstItem">
+   								<a href="../index/index.html"><img src="../apple.png"></a>
+   							</div>
+   						</div>
+   					</td>
+   					 <td>
+   						<div class="navigationLink">
+   							<div>
+   								<a href="../iPhone5s/iPhone5s.html">iPhone5s</a>
+   							</div>
+   						</div>
+   					</td>
+   					<td>
+   						<div class="navigationLink">
+   							<div>
+   								<a href="../iPhone5c/iPhone5c.html">iPhone5c</a>
+   							</div>
+   						</div>
+   					</td>
+   					<td>
+   						<div class="navigationLink lastItem">
+   							<div class="lastItem">
+   								<a href="../iPad/iPad.html">iPad</a>
+   							</div>
+   						</div>
+   					</td>
+   				</tr>
+   			</table>
+   		</div> 
+   		
+    	<div class="title">
+    		<img alt="" src="title.png">
+    	</div>
+		
+		<div class="playAdTitle" onclick="playAd();">
+		</div>
+		
+		<div class="adTv">
+    		<div>
+    			<img src="videoClose.png" onclick="adTvEnd()">
+    		</div>
+    		<div>
+    			<video id="adTvVideo" src="adTv.mp4" controls="controls" onended="adTvEnd()">
+					您的浏览器不支持 video 标签。
+				</video>
+			</div>
+		</div>
+		
+		<div class="playFeatureTitle" onclick="playFeature();">
+		</div>
+		
+		<div class="featureTv">
+			<div>
+    			<img src="videoClose.png" onclick="featureTvEnd()">
+    		</div>
+    		<div>
+    			<video id="featureVideo" src="featureTv.mp4" controls="controls" onended="featureTvEnd()">
+					您的浏览器不支持 video 标签。
+				</video>
+			</div>
+		</div>
+	</div>
+		
+	 <footer style="width:400px;  margin-right: auto; margin-left: auto;">
+    	<p style="align:center; border-left:solid">Copyright © 2013 Apple Inc. All rights reserved.</p>
+     </footer>
+  </body>
+</html>

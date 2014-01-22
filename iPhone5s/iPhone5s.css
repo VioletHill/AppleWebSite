@@ -1,0 +1,70 @@
+.firstIntro{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+p.infor{
+	font-size:20px;
+}
+
+.firstLine{
+	width:790px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.secondLine{
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.thirdLine{
+	width:740px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.fourthLine{
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.heroImg{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.appIntro{
+	width:936px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.appItem{
+	width:312px;
+	height:850px;
+	background-image:url(../iPhone5s/iPhone5s.jpg);
+	background-repeat:no-repeat;
+	float:left;
+}
+
+.appScreen{
+	position:relative;
+	left:40px;
+	top:89px;
+}
+
+.appInfor{
+	margin-top:200px;
+	margin-left:30px;
+	margin-left:20px;
+}
+
+.appTitle{
+	margin-left:20px;
+}

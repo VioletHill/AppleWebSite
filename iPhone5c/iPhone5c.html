@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>iPhone5c.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=GB18030">
+    
+    <link rel="stylesheet" type="text/css" href="./iPhone5c.css">
+	<link rel="stylesheet" type="text/css" href="../navigation.css">
+	<script src="../jquery.js"></script>
+	<script src="./iPhone5c.js"></script>
+  </head>
+  
+  <body>
+  
+  	<div class="navigation" style="position:relative;  z-index:10">
+    		<table cellspacing="0" cellpadding="0">
+    			<tr>
+    				<td>
+   						<div class="navigationLink firstItem">
+   							<div class="firstItem">
+   								<a href="../index/index.html"><img src="../apple.png"></a>
+   							</div>
+   						</div>
+   					</td>
+   					 <td>
+   						<div class="navigationLink">
+   							<div>
+   								<a href="../iPhone5s/iPhone5s.html">iPhone5s</a>
+   							</div>
+   						</div>
+   					</td>
+   					<td>
+   						<div class="navigationLink">
+   							<div>
+   								<a href="../iPhone5c/iPhone5c.html">iPhone5c</a>
+   							</div>
+   						</div>
+   					</td>
+   					<td>
+   						<div class="navigationLink lastItem">
+   							<div class="lastItem">
+   								<a href="../iPad/iPad.html">iPad</a>
+   							</div>
+   						</div>
+   					</td>
+   				</tr>
+   			</table>
+   		</div> 
+  	
+  
+  	<div class="container" style="margin-top:-50px">
+  		<div class="imageWheel">
+  			<img src="iPhone5cBlue.png">
+  			<img src="iPhone5cGreen.png">
+  			<img src="iPhone5cPink.png">
+  			<img src="iPhone5cWhite.png">
+  			<img src="iPhone5cYellow.png">
+  		</div>
+  	</div>
+  	
+  	<div class="pageContainer">
+  		<img class="page" id="page0" src="imagePage.png" onclick="setIndexImg(0)"/>
+  		<img class="page" id="page1" src="imagePage.png" onclick="setIndexImg(1)"/>
+  		<img class="page" id="page2" src="imagePage.png" onclick="setIndexImg(2)"/>
+  		<img class="page" id="page3" src="imagePage.png" onclick="setIndexImg(3)"/>
+  		<img class="page" id="page4" src="imagePage.png" onclick="setIndexImg(4)"/>
+  	</div>
+  	
+  	<div style="clear:both"></div>
+  	<div class="nextLastItem">
+  		<img src="lastiPhone5c.png" onclick="lastImg()" class="lastImg"/>
+  		<img src="nextiPhone5c.png" onclick="nextImg()" class="nextImg"/>
+  	</div>
+  	
+  	
+  	<HR style="FILTER: alpha(opacity=50,finishopacity=0,style=3); position:relative; top:-30px;" width="100%" color=black; size=1;>
+  	
+  	<div class="subtitle">	
+  		<img src="iPhone5cSubtitle.png" class="iPhone5cSubtitle"/>
+  		<img src="iPhone5c-colorful.png" class="colorfulSubtitle"/>
+  		<img src="forTheColorSubtitle.png" class="forTheColorSubtitle"/>
+  		<div class="watchTheVideoForiPhone5c" onclick="watchTheVideoForiPhone5c()"></div>	
+  		<div class="watchTheKeyNoteiPhone5c" onclick="watchTheKeyNote()"></div>
+  	</div>
+
+  	<div style="clear:both"></div>
+  	<HR style="FILTER: alpha(opacity=50,finishopacity=0,style=3)" width="100%" color=black; size=1;>
+  	<div class="colorSelect">
+  	 	<img src="color-iPhone5c/color_green_none.jpg" id="color_iPhone">
+  	 	<div class="colorfulLable">
+  	 		<img alt="" src="forTheColorfulTitle.png">
+  	 		<p id="colorfulIntro" class="colorfulIntro">Color is more than just a hue. It expresses a feeling. Makes a statement. Declares an allegiance. Color reveals your personality. iPhone 5c, in five anything-but-shy colors, does just that. It’s not just for lovers of color. It’s for the colorful.</p>
+  	 		<p>iPhone</p>
+  	 		<div>
+  	 			<img id="iPhone0" src="color/greenColorSelect.png" onclick="changeiPhone('green',this)"/>
+  	 			<img id="iPhone1" src="color/blueColor.png" onclick="changeiPhone('blue',this)"/>
+  	 			<img id="iPhone2" src="color/yellowColor.png" onclick="changeiPhone('yellow',this)"/>
+  	 			<img id="iPhone3" src="color/pinkColor.png" onclick="changeiPhone('pink',this)"/>
+  	 			<img id="iPhone4" src="color/whiteColor.png" onclick="changeiPhone('white',this)"/>
+  	 		</div>
+  	 		<p>Case</p>
+  	 		<div>
+  	 		  	<img id="case0" src="color/greenColor.png" onclick="changeCase('green',this)" />
+  	 			<img id="case1" src="color/blueColor.png" onclick="changeCase('blue',this)"/>
+  	 			<img id="case2" src="color/yellowColor.png" onclick="changeCase('yellow',this)"/>
+  	 			<img id="case3" src="color/pinkColor.png" onclick="changeCase('pink',this)"/>
+  	 			<img id="case4" src="color/whiteColor.png" onclick="changeCase('white',this)"/>
+  	 			<img id="case5" src="color/noneColorSelect.png" onclick="changeCase('none',this)"/>
+  	 		</div>
+  	 	</div>
+  	</div>
+  	
+  	<footer style="width:400px;  margin-right: auto; margin-left: auto;">
+    	<p style="align:center" style="border-left:thick double #ff0000">Copyright © 2013 Apple Inc. All rights reserved.</p>
+    </footer>
+  	 
+  	 
+  </body>
+</html>

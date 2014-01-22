@@ -1,0 +1,79 @@
+.iPadIntro{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+p.infor{
+	font-size:20px;
+}
+
+.firstLine{
+	width:650px;
+	font-size:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.secondLine{
+	width:635px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.appDiv{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+
+      /* Basic jCoverflip CSS */
+      .ui-jcoverflip {
+        position: relative;
+      }
+      
+      .ui-jcoverflip--item {
+        position: absolute;
+        display: block;
+      }
+      
+      
+      /* Basic sample CSS */
+      #flip {
+        height: 200px;
+        width: 630px;
+        margin-bottom: 50px;
+      }
+      
+      #flip .ui-jcoverflip--title {
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+        text-align: center;
+        color: #555;
+      }
+      
+      #flip img {
+        display: block;
+        border: 0;
+        outline: none;
+      }
+      
+      #flip a {
+        outline: none;
+      }
+      
+      
+      ul,
+      ul li {
+        margin: 0;
+        padding: 0;
+        display: block;
+        list-style-type: none;
+      }
+      
+
+    

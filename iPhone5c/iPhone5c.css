@@ -1,0 +1,103 @@
+.container{
+	width:1250px;
+	height:632px;
+	margin-left:auto;
+	margin-right:auto;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+.imageWheel{
+	position:relative;
+	width:1250px;
+}
+
+.pageContainer{
+	margin-top:30px;
+	width:80px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:10;
+}
+
+
+.page{
+	z-index:10;
+}
+
+.nextLastItem{
+	z-index:10;
+	position:relative;
+	top:-400px;
+}
+
+.lastImg{
+	position:relative;
+	left:20px;
+}
+
+.nextImg{
+	position:relative;
+	left:1165px;
+}
+
+div.subtitle{
+	height:504px;
+	overflow:hidden;
+}
+
+.iPhone5cSubtitle{
+	margin-top:150px;
+}
+
+.colorfulSubtitle{
+	float:right;
+}
+
+.forTheColorSubtitle{
+	margin-top:20px;
+	margin-left:20px;
+}
+
+.watchTheVideoForiPhone5c{
+	margin-top:20px;
+	margin-left:150px;
+	width:209px;
+	height:37px;
+	background-image:url(../iPhone5c/watchTheVideoForiPhone5c.png);
+	
+}
+
+.watchTheVideoForiPhone5c:hover{
+	background-image:url(../iPhone5c/watchTheVideoForiPhone5cSelect.png);
+}
+
+.watchTheKeyNoteiPhone5c{
+	margin-top:20px;
+	margin-left:150px;
+	width:234px;
+	height:37px;
+	background-image:url(../iPhone5c/watchTheKeyNoteiPhone5c.png);
+}
+
+.watchTheKeyNoteiPhone5c:hover{
+	margin-left:150px;
+	background-image:url(../iPhone5c/watchTheKeyNoteiPhone5cSelect.png);
+}
+
+div.colorSelect{
+	float:left;
+	height:634px;
+}
+
+div.colorfulLable{
+	float:right; 
+	margin-top:80px;
+	margin-left:100px;
+}
+
+p.colorfulIntro{
+	width:500px;
+	color:green;
+	font-size:20px;
+}

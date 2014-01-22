@@ -1,0 +1,43 @@
+.navigation{
+	width:420px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+}
+
+.navigationLink{
+	width:105px;
+	height:40px;
+	text-align:center;
+	background-color:#313131;
+}
+
+div.firstItem{
+	border-top-left-radius:8px;
+	border-bottom-left-radius:8px;
+}
+
+div.lastItem{
+	border-top-right-radius:8px;
+	border-bottom-right-radius:8px;
+	
+}
+
+div.navigationLink>div{
+	width:104px;
+	height:39px;
+	background-color:#717171;
+}
+
+
+
+div.navigationLink>div:hover{
+	background-color:#313131;
+}
+
+div.navigationLink>div>a{
+	line-height:40px;
+	color:white;
+	text-decoration:none;
+	margin-top:10px;
+}
